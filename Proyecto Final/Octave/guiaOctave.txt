@@ -1,0 +1,24 @@
+El archivo que vamos a utilizar para hacer las graficas con GNU Octave es el
+que contiene la evolucion del modelo (nuestro antiguo data.txt).
+Antes de nada, necesitareis borrar la primera linea del archivo (time; healthy; ..)
+y dejar solo las columnas de numeros.
+
+Luego, con con la interfaz grafica de octave, seleccionais el espacio de trabajo
+en el que deseais trabajar. Sea cual sea la carpeta que seleccioneis, dentro deben
+estar los archivos de data que quereis visualizar, y grafica.m y graficaR.m que 
+acabo de subir. Son don funciones que he creado para que seleccione los datos y 
+cree la grafica en un instante.
+
+Para cargar los datos de data.txt, o el nombre que tengais, solo debeis hacer doble
+clic sobre ella, y los cargara, y lo podreis visualizar en un panel de la izquierda,
+que pondra algo como :   data 151x3 , o algo asi.
+
+Para visualizar, lo unico que teneis que hacer ahora es llamar a la funcion grafica.m
+(o graficaR.m, en caso de ser SIR), y pasarle como argumento data. Algo asi:
+>> grafica(data)
+>> graficaR(data) [solo para SIR]
+
+Automaticamente os aparecera una pequeña pantalla con la grafica de la evolucion.
+Le dais a archivo, guardar, y lo guardais como un png.
+
+Y solo teneis que repetir el proceso para los distintos datos que teneis

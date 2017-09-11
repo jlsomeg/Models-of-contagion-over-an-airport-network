@@ -1,0 +1,28 @@
+Aparte de los cases base, que los generare y subire luego, se deben probar los 
+siguientes parametros:
+
+Tasas de Infeccion a probar:
+    0.1
+    0.25
+    0.75
+    0.9
+
+Tasa de Recuperacion a probar:
+    0.1
+    0.3
+    0.75
+    0.9
+    
+%'s para Activar la Cuarentena a probar:
+    0.5         -   Generado - Falta estudiar y comparar
+    0.95        -   Generado - Falta estudiar y comparar
+    
+Tipos de 1º infectado a probar:
+    Hubs        -   Generado - Falta estudiar y comparar
+    Pequeños    -   Generado - Falta estudiar y comparar
+    
+Si quereis generar las graficas que yo he generado hasta ahora, teneis que
+descargaros el programa "Octave": https://www.gnu.org/software/octave/
+Funciona tanto para windows y linux, aunque yo recomiendo le version windows,
+que tiene interfaz grafica.
+Luego os subo los comandos necesarios a ejecutar para q se generen las graficas.
