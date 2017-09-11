@@ -1,0 +1,7 @@
+id;state
+6079;infected
+2875;infected
+2893;infected
+2903;infected
+3494;infected
+193;infected

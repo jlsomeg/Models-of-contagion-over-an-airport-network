@@ -1,0 +1,11 @@
+id;state
+6047;infected
+1229;recovered
+2673;infected
+2709;recovered
+2716;infected
+2715;infected
+2722;infected
+3576;infected
+1871;recovered
+1892;recovered

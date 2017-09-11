@@ -1,0 +1,2 @@
+id;state
+2722;infected

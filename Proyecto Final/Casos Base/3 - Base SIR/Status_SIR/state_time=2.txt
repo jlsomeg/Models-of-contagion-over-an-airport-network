@@ -1,0 +1,3 @@
+id;state
+2715;infected
+2722;infected
